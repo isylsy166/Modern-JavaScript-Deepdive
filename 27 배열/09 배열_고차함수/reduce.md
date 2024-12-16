@@ -37,7 +37,10 @@ reduce 메서드의 콜백 함수는 4개의 인수를 전달받아 배열의 le
 
 이 때, 콜백함수로 전달되는 인수와 콜백 함수의 반환값은 다음과 같다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d20b6e-1137-4a98-8786-d40359d0c19b/1ec3922f-2500-462a-82b6-597bed027184/image.png)
+
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/e1216d6a-12c0-4500-bf57-bd147fc4e6b6" width="700">
+</div>
 
 이처럼 reduce 메서드는 초기값과 배열의 첫 번째 요소값을 콜 백 함수에게 인수로 전달하면서 호출하고 다음 순회에는 콜백 함수의 반환값과 두 번째 요소값을 콜백 함수의 인수로 전달하면서 호출한다.
 
